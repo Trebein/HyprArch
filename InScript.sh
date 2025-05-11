@@ -149,6 +149,7 @@ echo -e "\e[1;32m
 flatpak install flathub org.telegram.desktop
 flatpak install flathub io.github.shiftey.Desktop
 flatpak install flathub com.brave.Browser
+flatpak install flathub md.obsidian.Obsidian
 
 echo -e "\e[1;32m
 =======================================================
