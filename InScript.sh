@@ -66,20 +66,6 @@ mkdir -p ~/.config/fastfetch/
 cp -f ~/HyprArch/config-files/fastfetch/config.jsonc ~/.config/fastfetch/
 # докс?
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 echo -e "\e[1;32m
 =======================================================
 =======================================================
