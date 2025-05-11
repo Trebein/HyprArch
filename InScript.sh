@@ -31,7 +31,7 @@ echo -e "\e[1;32m
 =======================================================
 \e[0m"
 sudo pacman -S git hyprpaper hyprlock waybar mc thunar meson flatpack fastfetch nwg-dock-hyprland --noconfirm
-yay -S hyprshot --noconfirm
+yay -S hyprshot github-desktop --noconfirm
 
 echo -e "\e[1;32m
 =======================================================
@@ -147,7 +147,6 @@ echo -e "\e[1;32m
 =======================================================
 \e[0m"
 flatpak install flathub org.telegram.desktop
-flatpak install flathub io.github.shiftey.Desktop
 flatpak install flathub com.brave.Browser
 flatpak install flathub md.obsidian.Obsidian
 
