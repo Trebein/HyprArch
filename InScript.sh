@@ -1,17 +1,5 @@
 #!/bin/bash
 
-#echo -e "\e[1;32m
-# =====================================================
-# =====================================================
-#                Подключение к WiFi
-# =====================================================
-# =====================================================
-#\e[0m"
-# nmcli device wifi list
-# nmcli device wifi connect PDA password plaksina48
-# nmcli connection show
-# nmcli connection delete PDA
-
 echo -e "\e[1;32m
 =======================================================
 =======================================================
@@ -19,7 +7,7 @@ echo -e "\e[1;32m
 =======================================================
 =======================================================
 \e[0m"
-sudo pacman -S git waybar hyprpaper hyprlock thunar meson flatpack fastfetch --noconfirm
+sudo pacman -S git waybar hyprpaper hyprlock thunar meson flatpack fastfetch nwg-dock --noconfirm
 
 echo -e "\e[1;32m
 =======================================================
