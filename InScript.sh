@@ -3,11 +3,25 @@
 echo -e "\e[1;32m
 =======================================================
 =======================================================
+                     Установка YAY
+=======================================================
+=======================================================
+\e[0m"
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+cd
+rm -rf yay
+
+echo -e "\e[1;32m
+=======================================================
+=======================================================
              Установка основных пакетов
 =======================================================
 =======================================================
 \e[0m"
-sudo pacman -S git waybar hyprpaper hyprlock thunar meson flatpack fastfetch nwg-dock --noconfirm
+sudo pacman -S git hyprpaper hyprlock waybar mc thunar meson flatpack fastfetch nwg-dock-hyprland --noconfirm
+yay -S hyprshot --noconfirm
 
 echo -e "\e[1;32m
 =======================================================
@@ -33,6 +47,7 @@ echo -e "\e[1;32m
 конфиг башрс
 конфиг фиш
 конфиг китти
+конфиг фастфетч
 докс?
 
 
@@ -47,17 +62,7 @@ echo -e "\e[1;32m
 
 
 
-echo -e "\e[1;32m
-=======================================================
-=======================================================
-                     Установка YAY
-=======================================================
-=======================================================
-\e[0m"
-git clone https://aur.archlinux.org/yay.git
-cd yay
-makepkg -si
-cd
+
 
 echo -e "\e[1;32m
 =======================================================
@@ -80,6 +85,7 @@ git clone https://github.com/vinceliuice/Graphite-gtk-theme
 cd Graphite-gtk-theme/
 ./install.sh
 cd
+rm -rf Graphite-gtk-theme
 
 echo -e "\e[1;32m
 =======================================================
@@ -105,6 +111,8 @@ cd wlogout
 meson build
 ninja -C build
 sudo ninja -C build install
+cd
+rm -rf wlogout
 
 echo -e "\e[1;32m
 =======================================================
