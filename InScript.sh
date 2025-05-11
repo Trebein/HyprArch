@@ -50,19 +50,21 @@ echo -e "\e[1;32m
 =======================================================
 \e[0m"
 
-mkdir -p ~/.config/kitty/ && cp -f ~/HyprArch/config-files/kitty/kitty.conf ~/.config/kitty/
+cp -f ~/HyprArch/config-files/BASH/.bashrc ~/
+mkdir -p ~/.config/hypr/
+cp -f ~/HyprArch/config-files/hypr/hyprland.conf ~/.config/hypr/
+cp -f ~/HyprArch/config-files/hypr/hyprlock.conf ~/.config/hypr/
+cp -f ~/HyprArch/config-files/hypr/hyprpaper.conf ~/.config/hypr/
+mkdir -p ~/Wallpapers/
+cp ~/HyprArch/Wallpapers/light_snow.png ~/Wallpapers/
+mkdir -p ~/.config/kitty/
+cp -f ~/HyprArch/config-files/kitty/kitty.conf ~/.config/kitty/
 cp -rf ~/HyprArch/config-files/waybar ~/.config/
 cp -rf ~/HyprArch/config-files/wofi ~/.config/
-
-
-конфиг хупрлэнд
-конфиг хупрпапер
-обоина
-конфиг хупрлок
-конфиг башрс
-конфиг фиш
-конфиг фастфетч
-докс?
+cp -rf ~/HyprArch/config-files/fish/ ~/.config/
+mkdir -p ~/.config/fastfetch/
+cp -f ~/HyprArch/config-files/fastfetch/config.jsonc ~/.config/fastfetch/
+# докс?
 
 
 
