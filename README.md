@@ -30,20 +30,39 @@ sudo -v && ./InScript.sh
 
 # *Компоненты системы:*
 
+| Компонент          | Название           |
+|--------------------|--------------------|
+| Терминал          | `kitty`            |
+| Командная оболочка | `fish`             |
+| Файловый менеджер  | `thunar`           |
+| Меню приложений    | `wofi`             |
+| Бар                | `waybar`           |
+| Блокировка         | `hyprlock`         |
+| Обои              | `hyprpaper`        |
+| Скриншоты         | `hyprshot`         |
+| Меню питания       | `wlogout`          |
+| GTK Тема            | `Graphite Dark` |
+| Иконки            | `Papirus-Dark`     |
 
 | Компонент          | Название           |
 |--------------------|--------------------|
-| Терминал          | kitty              |
-| Командная оболочка | fish               |
-| Файловый менеджер  | thunar             |
-| Меню приложений    | wofi               |
-| Бар                | waybar             |
-| Блокировка         | hyprlock           |
-| Обои              | hyprpaper          |
-| Скриншоты         | hyprshot           |
-| Меню питания       | wlogout            |
-| GTK Тема              | Graphite Dark |
-| Иконки            | Papirus-Dark       |
+| **Терминал**          | `kitty`            |
+| **Командная оболочка** | `fish`             |
+| **Звук** | `...`             |
+| **Звук** | `...`             |
+| **Звук** | `...`             |
+| **Звук** | `...`             |
+| **Файловый менеджер**  | `thunar`           |
+| **Меню приложений**    | `wofi`             |
+| **Бар **               | `waybar`           |
+| **Блокировка**         | `hyprlock`         |
+| **Обои**              | `hyprpaper`        |
+| **Скриншоты**         | `hyprshot`         |
+| **Меню питания**       | `wlogout`          |
+| **GTK Тема**            | `Graphite Dark` |
+| **Иконки**            | `Papirus-Dark`     |
+
+
 
 
 ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
