@@ -1,9 +1,4 @@
-## Мой стек технологий
 
-<svg width="32" height="32" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-  <title>Arch Linux</title>
-  <path fill="#1793D1" d="M11.39.605C10.376 3.092 9.764 4.72..."/>
-</svg>
 
 ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
