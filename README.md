@@ -29,6 +29,6 @@ sudo -v && ./InScript.sh
 
 **Меню питания** - wlogout
 
-**Тема** - Graphite-Dark (gtk)
+**Тема** - graphite dark (gtk)
 
 **Иконки** - Papirus-Dark
