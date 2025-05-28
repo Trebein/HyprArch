@@ -46,7 +46,7 @@ sudo -v && ./InScript.sh
 | Скриншоты         | `hyprshot`         |
 | Меню питания       | `wlogout`          |
 | GTK Тема            | `Graphite Dark` |
-| Иконки            | `Papirus-Dark`     |
+| Иконки            | `Papirus Dark`     |
 
 
 
