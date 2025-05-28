@@ -19,8 +19,6 @@
 
 ### Скрипт предназначен для превращения свежеустановленного Arch linux с hyprland в полностью настроенную и готовую к работе систему
 
-![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
-
 ```BASH
 git clone https://github.com/Trebein/HyprArch
 ```
@@ -54,3 +52,4 @@ sudo -v && ./InScript.sh
 
 **Иконки** - Papirus-Dark
 
+![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
