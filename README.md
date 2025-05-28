@@ -23,6 +23,7 @@
     width="50" 
     style="display: block;" 
   />
+  <span style="font-size: 30px; line-height: 1;">+</span>
   <img 
     src="https://raw.githubusercontent.com/Trebein/HyprArch/main/assets/hyprland.svg" 
     width="100" 
