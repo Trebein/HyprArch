@@ -2,12 +2,8 @@
 ![](https://img.shields.io/github/last-commit/trebein/HyprArch)
 ![](https://img.shields.io/github/repo-size/trebein/HyprArch)
 ![](https://img.shields.io/github/languages/top/trebein/HyprArch)
-![Code Time](http://img.shields.io/badge/Code%20Time-2%2C018%20hrs%2052%20mins-blue)
+![Code Time](http://img.shields.io/badge/trebein/HyprArche)
 
- <img src="https://badges.pufler.dev/visits/ritik307/ritik307"/> 
- <!-- <img src="https://badges.pufler.dev/years/ritik307"/> -->
- <img src="https://badges.pufler.dev/repos/ritik307"/>
- <img src="https://badges.pufler.dev/commits/monthly/ritik307" />
 
 <img 
   src="https://raw.githubusercontent.com/Trebein/HyprArch/main/assets/archlinux.svg" 
