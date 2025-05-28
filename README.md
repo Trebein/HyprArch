@@ -1,4 +1,4 @@
-![Arch Linux](https://raw.githubusercontent.com/Trebein/HyprArch/main/assets/archlinux.svg){: width="100" height="100"}
+
 
 <img src="[https://raw.githubusercontent.com/.../arch-icon.svg](https://raw.githubusercontent.com/Trebein/HyprArch/main/assets/archlinux.svg)" width="200">
 
