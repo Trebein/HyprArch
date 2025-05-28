@@ -2,7 +2,7 @@
 ![](https://img.shields.io/github/last-commit/trebein/HyprArch)
 ![](https://img.shields.io/github/repo-size/trebein/HyprArch)
 ![](https://img.shields.io/github/languages/top/trebein/HyprArch)
-
+![Code Time](http://img.shields.io/badge/Code%20Time-2%2C018%20hrs%2052%20mins-blue)
 
 <img 
   src="https://raw.githubusercontent.com/Trebein/HyprArch/main/assets/archlinux.svg" 
