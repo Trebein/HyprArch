@@ -1,4 +1,7 @@
 ![](https://komarev.com/ghpvc/?username=trebein)
+![](https://img.shields.io/github/last-commit/MarkSDGD/AndroidBF)
+![](https://img.shields.io/github/repo-size/MarkSDGD/AndroidBF)
+![](https://img.shields.io/github/languages/top/MarkSDGD/AndroidBF)
 
 <img 
   src="https://raw.githubusercontent.com/Trebein/HyprArch/main/assets/archlinux.svg" 
