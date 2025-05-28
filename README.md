@@ -9,3 +9,16 @@ chmod +X InScript.sh
 ```BASH
 sudo -v && ./InScript.sh
 ```
+
+# Компоненты системы:
+**Терминал** - kitty
+**Командная оболочка** - fish
+**Файловый менеджер** - thunar
+**Скриншоты** - hyprshot
+**Меню приложений** - wofi
+**Бар** - waybar
+**Блокировка** - hyprlock
+**Обои** -  hyprpaper
+**Меню питания** - wlogout
+**Тема** - Graphite-Dark (gtk)
+**Иконки** - Papirus-Dark
