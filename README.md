@@ -1,4 +1,5 @@
 ![](https://komarev.com/ghpvc/?username=trebein)
+![Repo Size](https://img.shields.io/github/repo-size/:username/:repo?style=for-the-badge&label=Repo%20Size)
 
 <img 
   src="https://raw.githubusercontent.com/Trebein/HyprArch/main/assets/archlinux.svg" 
