@@ -1,3 +1,4 @@
+![](https://komarev.com/ghpvc/?username=your-github-username)
 ![](https://img.shields.io/github/last-commit/trebein/HyprArch)
 ![](https://img.shields.io/github/repo-size/trebein/HyprArch)
 ![](https://img.shields.io/github/languages/top/trebein/HyprArch)
