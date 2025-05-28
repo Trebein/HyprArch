@@ -2,6 +2,11 @@
   src="https://raw.githubusercontent.com/Trebein/HyprArch/main/assets/archlinux.svg" 
   width="100" 
 />
+<img 
+  src="https://raw.githubusercontent.com/Trebein/HyprArch/main/assets/hyprland.svg" 
+  width="100" 
+/>
+
 
 ### Скрипт предназначен для превращения свежеустановленного Arch linux с hyprland в полностью настроенную и готовую к работе систему
 
