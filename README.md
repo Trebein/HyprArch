@@ -20,9 +20,15 @@ sudo -v && ./InScript.sh
 **Скриншоты** - hyprshot
 
 **Меню приложений** - wofi
+
 **Бар** - waybar
+
 **Блокировка** - hyprlock
+
 **Обои** -  hyprpaper
+
 **Меню питания** - wlogout
+
 **Тема** - Graphite-Dark (gtk)
+
 **Иконки** - Papirus-Dark
