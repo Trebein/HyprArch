@@ -4,7 +4,7 @@
 />
 <img 
   src="https://raw.githubusercontent.com/Trebein/HyprArch/main/assets/plus.svg" 
-  width="100" 
+  width="50" 
 />
 <img 
   src="https://raw.githubusercontent.com/Trebein/HyprArch/main/assets/hyprland.svg" 
