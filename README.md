@@ -1,5 +1,5 @@
 <img 
-  src="https://raw.githubusercontent.com/user/repo/branch/path.svg" 
+  src="[https://raw.githubusercontent.com/user/repo/branch/path.svg](https://simpleicons.org/icons/archlinux.svg)" 
   alt="Arch Linux" 
   width="24"
 />
