@@ -17,8 +17,6 @@ sudo -v && ./InScript.sh
 
 **Файловый менеджер** - thunar
 
-**Скриншоты** - hyprshot
-
 **Меню приложений** - wofi
 
 **Бар** - waybar
@@ -26,6 +24,8 @@ sudo -v && ./InScript.sh
 **Блокировка** - hyprlock
 
 **Обои** -  hyprpaper
+
+**Скриншоты** - hyprshot
 
 **Меню питания** - wlogout
 
