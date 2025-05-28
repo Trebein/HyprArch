@@ -1,3 +1,5 @@
+![](https://komarev.com/ghpvc/?username=your-github-username)
+
 <img 
   src="https://raw.githubusercontent.com/Trebein/HyprArch/main/assets/archlinux.svg" 
   width="100" 
