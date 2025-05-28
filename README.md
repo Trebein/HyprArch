@@ -1,6 +1,6 @@
 ![Arch Linux](https://raw.githubusercontent.com/Trebein/HyprArch/main/assets/archlinux.svg){: width="100" height="100"}
 
-<img src="[https://raw.githubusercontent.com/.../arch-icon.svg](https://raw.githubusercontent.com/Trebein/HyprArch/main/assets/archlinux.svg)" width="32">
+<img src="[https://raw.githubusercontent.com/.../arch-icon.svg](https://raw.githubusercontent.com/Trebein/HyprArch/main/assets/archlinux.svg)" width="200">
 
 ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
