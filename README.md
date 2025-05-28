@@ -20,7 +20,6 @@
   <img 
     src="https://raw.githubusercontent.com/Trebein/HyprArch/main/assets/plus.svg" 
     width="50" 
-    style="margin: 0 10px;" /* Добавляем отступы по бокам */
   />
   <img 
     src="https://raw.githubusercontent.com/Trebein/HyprArch/main/assets/hyprland.svg" 
