@@ -1,3 +1,5 @@
+![Github-sponsors](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#EA4AAA)
+
 ### Скрипт предназначен для превращения свежеустановленного Arch linux с hyprland в полностью настроенную и готовую к работе систему
 
 ```BASH
