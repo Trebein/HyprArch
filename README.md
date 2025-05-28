@@ -1,4 +1,4 @@
-![](https://komarev.com/ghpvc/?username=your-github-username)
+![](https://komarev.com/ghpvc/?username=trebein)
 
 <img 
   src="https://raw.githubusercontent.com/Trebein/HyprArch/main/assets/archlinux.svg" 
