@@ -2,7 +2,6 @@
 ![](https://img.shields.io/github/last-commit/trebein/HyprArch)
 ![](https://img.shields.io/github/repo-size/trebein/HyprArch)
 ![](https://img.shields.io/github/languages/top/trebein/HyprArch)
-![Code Time](http://img.shields.io/badge/trebein/HyprArche)
 
 
 <img 
