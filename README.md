@@ -2,7 +2,7 @@
   src="https://raw.githubusercontent.com/Trebein/HyprArch/main/assets/archlinux.svg" 
   width="200" 
   style="vertical-align: text-bottom;"
-> Arch Linux
+/> Arch Linux
 
 ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
