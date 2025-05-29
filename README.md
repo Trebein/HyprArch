@@ -1,7 +1,8 @@
 ![](https://img.shields.io/badge/Language-Russian-greenss)
+![](https://img.shields.io/github/languages/top/trebein/HyprArch)
 ![](https://img.shields.io/github/last-commit/trebein/HyprArch)
 ![](https://img.shields.io/github/repo-size/trebein/HyprArch)
-![](https://img.shields.io/github/languages/top/trebein/HyprArch)
+
 
 <img 
   src="https://raw.githubusercontent.com/Trebein/HyprArch/main/assets/archlinux.svg" 
