@@ -1,6 +1,13 @@
 #!/bin/bash
 
-############ ГРУППИРОВКА ПАКЕТОВ В МАССИВЫ ############
+# Строгий режим выполнения: прерывание при ошибках, неопределённых переменных и ошибках в пайпах
+set -euo pipefail
+
+# Логирование
+LOG_FILE="${HOME}/hyprarch_install.log"
+exec > >(tee -a "$LOG_FILE") 2>&1
+
+# Группировка пакетов в массивы
 PACKAGES_HYPR=(hyprpaper hyprlock waybar nwg-dock-hyprland)
 PACKAGES_MAIN=(nano dmidecode xarchiver thunar fastfetch flatpack git mc meson fish pkgfile)
 PACKAGES_FONTS=(ttf-font-awesome otf-font-awesome ttf-jetbrains-mono)
@@ -232,7 +239,7 @@ done
 echo -e "\e[1;32m
 =======================================================
 =======================================================
-         Скрипт завершен, нужно сделать reboot
+Скрипт завершён! Лог сохранён в $LOG_FILE. Рекомендуется перезагрузка.
 =======================================================
 =======================================================
 \e[0m"
