@@ -1,5 +1,6 @@
 #!/bin/bash
 
+############ ГРУППИРОВКА ПАКЕТОВ В МАССИВЫ ############
 PACKAGES_HYPR=(hyprpaper hyprlock waybar nwg-dock-hyprland)
 PACKAGES_MAIN=(nano dmidecode xarchiver thunar fastfetch flatpack git mc meson fish pkgfile)
 PACKAGES_FONTS=(ttf-font-awesome otf-font-awesome ttf-jetbrains-mono)
@@ -9,7 +10,6 @@ PACKAGES_BLUETOOTH=(blueman bluez bluez-utils bluez-deprecated-tools tlp)
 PACKAGES_PIPEWIRE=(pipewire pipewire-pulse pipewire-jack lib32-pipewire gst-plugin-pipewire wireplumber)
 PACKAGES_NETWORK=(dhcpcd)
 PACKAGES_GAME=(steam-native-runtime lutris wine)
-
 FLATPAK_APPS=(
     org.chromium.Chromium
     com.brave.Browser
@@ -25,7 +25,6 @@ FLATPAK_APPS=(
     io.github.shiftey.Desktop
     # de.shorsh.discord-screenaudio
 )
-
 
 echo -e "\e[1;32m
 =======================================================
