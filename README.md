@@ -11,19 +11,6 @@
   <img src="https://raw.githubusercontent.com/Trebein/HyprArch/main/assets/hyprland.svg" width="100" />
 </div>
 
-<img 
-  src="https://raw.githubusercontent.com/Trebein/HyprArch/main/assets/archlinux.svg" 
-  width="100" 
-/>
-<img 
-  src="https://raw.githubusercontent.com/Trebein/HyprArch/main/assets/plus.svg" 
-  width="70" 
-/>
-<img 
-  src="https://raw.githubusercontent.com/Trebein/HyprArch/main/assets/hyprland.svg" 
-  width="100" 
-/>
-
 # *Превращение свежеустановленного Arch linux hyprland в полностью настроенную и готовую к работе систему:*
 
 
