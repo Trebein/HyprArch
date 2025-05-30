@@ -1,5 +1,13 @@
 #!/bin/bash
 
+PACKAGES_HYPR=(hyprpaper hyprlock waybar nwg-dock-hyprland)
+PACKAGES_MAIN=(nano dmidecode xarchiver thunar fastfetch flatpack git mc meson fish pkgfile)
+PACKAGES_FONTS=(ttf-font-awesome otf-font-awesome ttf-jetbrains-mono)
+PACKAGES_FISH=(fish pkgfile ttf-dejavu powerline)
+PACKAGES_THEME=(nwg-look papirus-icon-theme)
+
+
+
 echo -e "\e[1;32m
 =======================================================
 =======================================================
@@ -39,7 +47,8 @@ echo -e "\e[1;32m
 =======================================================
 =======================================================
 \e[0m"
-sudo pacman -S git hyprpaper hyprlock waybar mc thunar meson flatpack fastfetch nwg-dock-hyprland --noconfirm
+sudo pacman -S --noconfirm "${PACKAGES_MAIN[@]}"
+sudo pacman -S --noconfirm "${PACKAGES_HYPR[@]}"
 yay -S hyprshot github-desktop --noconfirm
 
 echo -e "\e[1;32m
@@ -49,7 +58,46 @@ echo -e "\e[1;32m
 =======================================================
 =======================================================
 \e[0m"
-sudo pacman -S ttf-font-awesome otf-font-awesome ttf-jetbrains-mono --noconfirm
+sudo pacman -S --noconfirm "${PACKAGES_FONTS[@]}"
+
+echo -e "\e[1;32m
+=======================================================
+=======================================================
+              Установка FISH и зависимостей
+=======================================================
+=======================================================
+\e[0m"
+sudo pacman -S --noconfirm "${PACKAGES_FISH[@]}"
+
+echo -e "\e[1;32m
+=======================================================
+=======================================================
+              Установка менеджера GTK тем
+=======================================================
+=======================================================
+\e[0m"
+
+sudo pacman -S --noconfirm "${PACKAGES_THEME[@]}"
+git clone https://github.com/vinceliuice/Graphite-gtk-theme
+cd Graphite-gtk-theme/
+./install.sh
+cd
+rm -rf Graphite-gtk-theme
+
+echo -e "\e[1;32m
+=======================================================
+=======================================================
+              Установка и настройка wlogout
+=======================================================
+=======================================================
+\e[0m"
+git clone https://github.com/ArtsyMacaw/wlogout.git
+cd wlogout
+meson build
+ninja -C build
+sudo ninja -C build install
+cd
+rm -rf wlogout
 
 echo -e "\e[1;32m
 =======================================================
@@ -78,29 +126,6 @@ cp -f ~/HyprArch/config-files/fastfetch/config.jsonc ~/.config/fastfetch/
 echo -e "\e[1;32m
 =======================================================
 =======================================================
-              Установка FISH и зависимостей
-=======================================================
-=======================================================
-\e[0m"
-sudo pacman -S fish pkgfile ttf-dejavu powerline
-
-echo -e "\e[1;32m
-=======================================================
-=======================================================
-              Установка менеджера GTK тем
-=======================================================
-=======================================================
-\e[0m"
-sudo pacman -S nwg-look papirus-icon-theme
-git clone https://github.com/vinceliuice/Graphite-gtk-theme
-cd Graphite-gtk-theme/
-./install.sh
-cd
-rm -rf Graphite-gtk-theme
-
-echo -e "\e[1;32m
-=======================================================
-=======================================================
              Применение GTK темы и иконок
 =======================================================
 =======================================================
@@ -113,31 +138,11 @@ gsettings get org.gnome.desktop.interface gtk-theme # вывод текущей 
 echo -e "\e[1;32m
 =======================================================
 =======================================================
-              Установка и настройка wlogout
-=======================================================
-=======================================================
-\e[0m"
-git clone https://github.com/ArtsyMacaw/wlogout.git
-cd wlogout
-meson build
-ninja -C build
-sudo ninja -C build install
-cd
-rm -rf wlogout
-
-echo -e "\e[1;32m
-=======================================================
-=======================================================
                    Подключение flathub
 =======================================================
 =======================================================
 \e[0m"
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-
-
-
-
-
 
 
 
