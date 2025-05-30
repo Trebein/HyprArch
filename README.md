@@ -24,10 +24,10 @@
 git clone https://github.com/Trebein/HyprArch
 ```
 ```BASH
-chmod +X InScript.sh
+chmod +x ~/HyprArch/InScript.sh
 ```
 ```
-sudo -v && ./InScript.sh
+sudo -v && ~/HyprArch/InScript.sh
 ```
 ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
