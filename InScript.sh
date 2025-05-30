@@ -22,7 +22,7 @@ print_header() {
 
 # Группировка пакетов в массивы
 PACKAGES_HYPR=(hyprpaper hyprlock waybar nwg-dock-hyprland)
-PACKAGES_MAIN=(nano dmidecode xarchiver thunar fastfetch flatpack git mc meson fish pkgfile)
+PACKAGES_MAIN=(nano dmidecode xarchiver thunar fastfetch flatpack git mc meson fish pkgfile mesa lib32-mesa mesa-utils )
 PACKAGES_FONTS=(ttf-font-awesome otf-font-awesome ttf-jetbrains-mono)
 PACKAGES_FISH=(fish pkgfile ttf-dejavu powerline)
 PACKAGES_THEME=(nwg-look papirus-icon-theme)
@@ -66,6 +66,7 @@ yay -S hyprshot github-desktop --noconfirm || log_error "Не удалось у�
 
 print_header "Настройка Bluetooth"
 sudo pacman -S --noconfirm "${PACKAGES_BLUETOOTH[@]}" || log_error "Не удалось установить пакеты Bluetooth"
+sudo systemctl enable --now bluetooth || log_error "Не удалось запустить bluetooth"
 sudo systemctl enable --now tlp || log_error "Не удалось включить службу tlp"
 
 print_header "Настройка звука (PipeWire)"
