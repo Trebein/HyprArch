@@ -1,4 +1,5 @@
 ![](https://img.shields.io/badge/Language-Russian-greenss)
+[![Development](https://img.shields.io/badge/Development-In_Progress-blue)](https://github.com//Trebein/HyprArch)
 ![](https://img.shields.io/github/last-commit/trebein/HyprArch)
 ![](https://img.shields.io/github/languages/top/trebein/HyprArch)
 ![](https://img.shields.io/github/repo-size/trebein/HyprArch)
