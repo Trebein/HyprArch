@@ -11,7 +11,7 @@
   <img src="https://raw.githubusercontent.com/Trebein/HyprArch/main/assets/hyprland.svg" width="100" />
 </div>
 
-# *Превращение свежеустановленного Arch linux hyprland в полностью настроенную и готовую к работе систему:*
+# *Превращение свежеустановленного Arch linux hyprland в ~~полностью~~ настроенную и готовую к работе систему:*
 
 
 ```BASH
