@@ -5,6 +5,7 @@
 ![](https://img.shields.io/github/repo-size/trebein/HyprArch)
 
 
+
 <div align="center">
   <img src="https://raw.githubusercontent.com/Trebein/HyprArch/main/assets/archlinux.svg" width="100" />
   <img src="https://raw.githubusercontent.com/Trebein/HyprArch/main/assets/plus.svg" width="70" />
