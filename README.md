@@ -4,11 +4,13 @@
 ![](https://img.shields.io/github/languages/top/trebein/HyprArch)
 ![](https://img.shields.io/github/repo-size/trebein/HyprArch)
 
+
 <div align="center">
   <img src="https://raw.githubusercontent.com/Trebein/HyprArch/main/assets/archlinux.svg" width="100" />
   <img src="https://raw.githubusercontent.com/Trebein/HyprArch/main/assets/plus.svg" width="70" />
   <img src="https://raw.githubusercontent.com/Trebein/HyprArch/main/assets/hyprland.svg" width="100" />
 </div>
+
 
 
 # *Развертывание Arch linux hyprland:*
