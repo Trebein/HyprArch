@@ -13,7 +13,7 @@
 
 
 
-# *Развертывание Arch linux hyprland:*
+# *Превращение свежеустановленного Arch linux hyprland в ~~полностью~~ настроенную и готовую к работе систему:*
 
 ```bash
 git clone https://github.com/Trebein/HyprArch &&
