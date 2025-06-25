@@ -4,15 +4,14 @@
 ![](https://img.shields.io/github/languages/top/trebein/HyprArch)
 ![](https://img.shields.io/github/repo-size/trebein/HyprArch)
 
-
 <div align="center">
   <img src="https://raw.githubusercontent.com/Trebein/HyprArch/main/assets/archlinux.svg" width="100" />
   <img src="https://raw.githubusercontent.com/Trebein/HyprArch/main/assets/plus.svg" width="70" />
   <img src="https://raw.githubusercontent.com/Trebein/HyprArch/main/assets/hyprland.svg" width="100" />
 </div>
 
-# *Превращение свежеустановленного Arch linux hyprland в ~~полностью~~ настроенную и готовую к работе систему:*
 
+# *Развертывание Arch linux hyprland:*
 
 ```bash
 git clone https://github.com/Trebein/HyprArch &&
