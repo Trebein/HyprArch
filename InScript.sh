@@ -33,12 +33,12 @@ PACKAGES_GAME=(steam-native-runtime lutris wine)
 FLATPAK_APPS=(
     org.chromium.Chromium
     com.brave.Browser
-    com.discordapp.Discord
-    me.kozec.syncthingtk
+    # com.discordapp.Discord
+    # me.kozec.syncthingtk
     org.telegram.desktop
     md.obsidian.Obsidian
     # io.crow_translate.CrowTranslate
-    com.librumreader.librum
+    # com.librumreader.librum
     com.obsproject.Studio
     org.keepassxc.KeePassXC
     com.nextcloud.desktopclient.nextcloud
